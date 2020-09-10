@@ -1,0 +1,20 @@
+body{
+ box-sizing: border-box;
+}
+header{
+    height: 20vw;
+    background-color: black;
+}
+h1{
+ color: bisque;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 3vw;
+}
