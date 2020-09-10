@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
  box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ a{
     text-decoration: none;
     color: aliceblue;
     margin: 3vw;
-
+}
 section{
     display: grid;
     grid-template-columns: 1fr 1fr 20%;
