@@ -1,0 +1,11 @@
+#footer {
+    background-color: black;
+}
+.button {
+    align-items: right;
+}
+p{
+  text-align: center;
+    color: white;
+    padding-top: 2px;
+}
