@@ -1,8 +1,12 @@
+
+
 body{
  box-sizing: border-box;
 }
 header{
     height: 20vw;
+}
+footer {
     background-color: black;
 }
 h1{
@@ -17,4 +21,30 @@ a{
     text-decoration: none;
     color: aliceblue;
     margin: 3vw;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+    grid-gap: 2vw;
+    border: 2px dotted red;
+}
+article{
+    font-family: monospace;
+    color: aqua;
+    border: 5px solid lightgreen;
+}
+aside{
+    color: bisque;
+    border: 2px solid red;
+    background-color: forestgreen;
+}
+.ar1{
+    background-color: fuchsia;
+}
+.ar2{
+    background-color: cornflowerblue;;
+}
+.ar1.ar2 aside:hover{
+    transform: scale(1.3);
+    background-color: floralwhite;
 }
