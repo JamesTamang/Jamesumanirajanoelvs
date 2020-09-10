@@ -1,9 +1,12 @@
 
+
 body{
  box-sizing: border-box;
 }
 header{
     height: 20vw;
+}
+footer {
     background-color: black;
 }
 h1{
